@@ -1,0 +1,16 @@
+title: The Secret Club
+description: Noone can who isn't a member can enter the club! The Secret Club is the most ancient club for vexillolo- *ahen* I mean World Domination!
+authors:
+  - mkg
+categories: 
+  - web
+flag_format_prefix: SSM{ 
+flags: correct_horse_battery_staple
+service:
+  type: website
+  image: container
+  internal_port: 80
+spec: 0.0.1
+score: 75
+
+challenge_id: 4242b4f6-f918-4a05-a56c-b7e808a058ce

@@ -1,0 +1,21 @@
+title: Herr Robot - Orange Cyberdefense
+description: |
+  En dag dyker en underlig fil upp på ditt skrivbord. Var kommer den ifrån? Försöker någon skicka dig ett meddelande? Detta är en sponsorsuppgift från Orange Cyberdefense.
+
+  OBS, i den här uppgiften är flaggan inte på standardformatet SSM{...}. Lägg det du får ut inom SSM{...} innan du skickar in det i plattformen.
+authors:
+  - Orange Cyberdefense
+categories:
+  - web
+
+flag_format_prefix: SSM{
+flags: Audiotextisfun
+
+spec: 0.0.1
+
+downloadable_files:
+  - BA424D26411F9430EE5EB653314484FFBE8DCEDD
+
+score: 200
+
+challenge_id: f7e90965-647d-41d7-86fa-018b297627cf

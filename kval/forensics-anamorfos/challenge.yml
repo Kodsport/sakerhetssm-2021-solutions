@@ -1,0 +1,19 @@
+title: Anamorfos
+description: I think I mixed up my coordinates, can you help me find the message?
+authors:
+  - Leopold Hermansson
+  - Axel Nilsson
+  - Fredrik Ekholm
+categories:
+  - forensics
+
+flag_format_prefix: SSM{
+flags: SP1N_M3_R1GH7_ROUND
+
+downloadable_files:
+  - chall.png
+
+spec: 0.0.1
+score: 300
+
+challenge_id: 47a795a3-6b3a-4f2c-80f3-57408942e840

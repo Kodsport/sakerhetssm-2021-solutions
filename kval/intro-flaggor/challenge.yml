@@ -1,0 +1,22 @@
+title: Flaggor 101
+description: |
+  När man löser CTF uppgifter letar man efter vad som heter en "flagga". Varje uppgift har en flagga, och den symboliserar uppgiftens lösning. Att ha en flagga betyder att man har löst uppgiften, och man kan skicka in flaggan på den här hemsidan för att bevisa att man har löst uppgiften och få poäng för sitt lag. I olika uppgifter i den här tävlingen kommer man behöva t.ex. avkryptera meddelanden, analysera en binär, eller hitta ett säkerhetshål på en hemsida för att få ut flaggor.
+
+  Flaggor kan se ut som godtyckliga strängar (text), men är oftast på formatet <code>SSM{...}</code>. Detta kallas flaggformatet. Visa flaggor har inte flaggformatet, alltså börjar de inte på <code>SSM{</code> och slutar på <code>}</code>, men i sånna fall står det tydligt att det är så i uppgiftens beskrivning.
+
+  Nedan står denna uppgifts flagga. Skriv in den i textfältet under och tryck på enter, så skickar du in flaggan och löser uppgiften!
+  <code>SSM{detta_är_en_riktigt_bra_flagga}</code>
+
+authors:
+  - Mateusz Drwal
+categories:
+  - introduktion
+
+flag_format_prefix: SSM{
+flags: detta_är_en_riktigt_bra_flagga
+
+score: 1
+
+spec: 0.0.1
+
+challenge_id: 93576dd7-ac96-4b48-a799-357347831958

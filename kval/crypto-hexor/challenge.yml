@@ -1,0 +1,21 @@
+title: Hexor
+description: |
+  Det måste vara hexor bakom detta...
+
+  11110f392876251d762c76301d2a713a72301d731d2f723131712c3f
+
+
+  (https://gchq.github.io/CyberChef/ kan vara ett bra verktyg för enkel kryptering/avkryptering och encodning/decoding)
+
+authors:
+  - Fredrik Ekholm
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: j4g_4n4r_h3x0r_1_m0ss3n
+
+spec: 0.0.1
+score: 100
+
+challenge_id: a5b078bd-0a5a-48a7-9779-a1035b07acbb

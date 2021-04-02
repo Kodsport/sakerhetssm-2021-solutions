@@ -1,0 +1,18 @@
+title: Riktigt Säkert meddelAnde
+description: Eve har skickat ut ett krypterat meddelande till sina kompisar. Rykten säger att det finns en nyckel i meddelandet, kan du lista ut vad den är?
+authors:
+  - Aron Bergman
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: b3_c4refu1_w1th_e
+
+downloadable_files:
+  - messages
+  - public_keys
+
+spec: 0.0.1
+score: 300
+
+challenge_id: bad0013c-9d47-4cd2-82dc-d71a72de40e7

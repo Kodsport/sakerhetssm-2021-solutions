@@ -1,0 +1,23 @@
+title: Undvik handskakning - Sentor
+description: |
+  Detta är en sponsorsuppgift från vår huvudsponsor Sentor.
+
+  OBS, för den här uppgiften skicka in flaggan med en lowercase version av standardformatet, alltså ssm{...} istället för SSM{...}.
+authors:
+  - Sentor
+categories:
+  - web
+  - forensics
+
+flag_format_prefix: ssm{
+flags: never_paste_untrusted_data
+
+spec: 0.0.1
+
+predefined_services:
+  - type: website
+    url: "http://sentorchallenge.se/"
+
+score: 200
+
+challenge_id: e33841b1-822a-4d4e-9962-b5dbfdd35c2f

@@ -1,0 +1,17 @@
+title: Robbers
+description: Jag fick det här meddelandet från tre skumma grabbar med säckar. Kan du hjälpa mig avkoda det? Flaggan är med stora bokstäver, lägg till SSM{} runt innan du skickar in.
+authors:
+  - Fredrik Ekholm
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: KASPEROCHJESPEROCHJONATAN
+
+downloadable_files:
+  - meddelande.txt
+
+spec: 0.0.1
+score: 200
+
+challenge_id: 808156b1-a014-422f-b14e-32329c2634d3

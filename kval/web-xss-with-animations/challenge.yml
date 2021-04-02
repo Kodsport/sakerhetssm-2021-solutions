@@ -1,0 +1,20 @@
+title: XSS with animations!
+description: Kolla in min XSS-utmaning. Den har snygga animationer :)
+authors:
+  - mkg
+categories:
+  - web
+
+flag_format_prefix: SSM{
+flags: but_muh_4n1mations_w3re_s0000_b34utiful!
+
+spec: 0.0.1
+
+service:
+  type: website
+  image: container
+  internal_port: 3000
+
+score: 350
+
+challenge_id: f701473d-696a-4b27-a816-0251288c91b2

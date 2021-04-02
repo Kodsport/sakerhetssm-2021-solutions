@@ -1,0 +1,26 @@
+title: Hantverk
+description: |
+  Du lyckas till slut knäcka kassaskåpet i jakt på flaggan, men inuti ligger istället... en mystisk lapp med konstig text på. Hmm... det måste finnas en flagga någonstans här.
+
+  OBS, i den här uppgiften är flaggan inte på formatet SSM{...}. Lägg det du får fram inom SSM{...} innan du skickar in det till plattformen.
+authors:
+  - mkg
+  - asta
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flag_format_suffix: "}"
+flags:
+- flag: lite is i isteet
+- flag: lite_is_i_isteet
+- flag: lite-is-i-isteet
+- flag: liteisiisteet
+
+downloadable_files:
+ - chall.txt
+
+spec: 0.0.1
+score: 200
+
+challenge_id: 3cdc42d5-37ca-481d-a934-3d2ed6e7f1c8

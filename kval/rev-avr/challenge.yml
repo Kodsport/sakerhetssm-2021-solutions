@@ -1,0 +1,18 @@
+title: Skum kod
+description: Vi hittade en skum apparat som vill ha någon skumt input, men vi har ingen aning vad. Vi skickar över koden vi lyckades få ut från apparaten, kan du hjälpa oss lista ut vad den vill ha?
+authors:
+  - Mateusz Drwal
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: 1_d0n7_kn0w_h0w_70_x86_bu7_4vr_15_pr377y_51mpl3
+
+downloadable_files:
+  - firmware.asm
+  - eeprom.hex
+
+spec: 0.0.1
+score: 350
+
+challenge_id: 1cdc30af-9e67-4d95-9e7a-3163e666b3ae

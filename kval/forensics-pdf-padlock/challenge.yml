@@ -1,0 +1,21 @@
+title: PDF Padlock
+description: |
+  Efter GitHubs authentication-fiasko här om dagen så har Kodsport bestämt sig för att byta till ett säkrare system för att göra auntentication. Ett system som bevisat sig säkert i över 20 år, som varje webläsare och PDF-läsare stödjer: PDF!
+  Dock var de 2000 sidorna PDF specifikation lite för mycket att hålla i huvudet, så vad lösenordet till inloggningssystemet var har tyvärr glömts bort. Kan du hjälpa Kodsport att komma in i systemet igen?
+
+  OBS, för den här uppgiften skicka in flaggan med en lowercase version av standardformatet, alltså ssm{...} istället för SSM{...}.
+authors:
+  - loovjo
+categories:
+  - forensics
+
+flag_format_prefix: ssm{
+flags: qw3rty<sv0rak
+
+downloadable_files:
+    login.pdf
+
+spec: 0.0.1 # Detta ska vara exakt som det är, rör inte
+score: 150
+
+challenge_id: 048a6814-043c-42ea-a781-16ae3e39f95d

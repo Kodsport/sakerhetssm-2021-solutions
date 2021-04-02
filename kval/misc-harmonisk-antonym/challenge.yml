@@ -1,0 +1,17 @@
+title: Harmonisk antonym
+description: Alla riktiga h4ckers hänger på <a href="https://discord.gg/au3a9dFWF5">Kodsports Discordserver</a>. Där kan ni ställa frågor om ni undrar något under tävlingen. Ni kanske kan till och med hitta en flagga där ;)
+
+authors:
+  - Aron Bergman
+
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: h4ckers_b3_welc0me
+
+score: 10
+
+spec: 0.0.1
+
+challenge_id: a9549e42-7f1e-4344-b993-83c04480d63c

@@ -1,0 +1,17 @@
+title: Spy Game
+description: "Vi har lyckats avlyssna en hacker som satt och spelade på någon slags gammal spelkonsol. Nu behöver vi din hjälp att ta reda på vad som spelades."
+authors:
+  - zetatwo
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: GAMEBOY_LCD_FUN
+
+downloadable_files:
+ - spy-game.csv.gz
+
+spec: 0.0.1
+score: 400
+
+challenge_id: d7dc26e3-7ab5-4548-a730-6873d697fb79

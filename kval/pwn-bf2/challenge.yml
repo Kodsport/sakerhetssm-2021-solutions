@@ -1,0 +1,22 @@
+title: Brainfuck2
+description: Måste vara minst 2 gånger så säker
+authors:
+  - zzz
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: u_a_bf_m4sterrr!!
+
+downloadable_files:
+  - container/bf2
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 400
+
+challenge_id: 9c715497-5acb-4e13-b12d-c0549f06fdde

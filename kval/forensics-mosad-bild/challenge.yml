@@ -1,0 +1,17 @@
+title: Mosad bild
+description: "Vi hittade den här bilden helt mosad på marken. Kan du hjälpa oss att tyda den?"
+authors:
+  - zetatwo
+categories:
+  - forensics
+
+flag_format_prefix: SSM{
+flags: s1ze_do3s_som3times_m4tter
+
+downloadable_files:
+ - mosad.png
+
+spec: 0.0.1
+score: 400
+
+challenge_id: 6dba81a7-0e29-438b-bbd7-d033d7bca421

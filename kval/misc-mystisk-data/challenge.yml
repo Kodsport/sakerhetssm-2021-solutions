@@ -1,0 +1,17 @@
+title: Mystisk data - Venor
+description: Du hittar en mystisk lapp med massa siffror på sig (igen). Vad kan det betyda? Det måste finnas någon djupare mening. Detta är en sponsorsuppgift från Venor.
+authors:
+  - Venor
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: PLOT_THIS
+
+downloadable_files:
+ - mystiskt.txt
+
+spec: 0.0.1
+score: 100
+
+challenge_id: e7c0d884-9291-4922-84e6-c7829f5df5c9

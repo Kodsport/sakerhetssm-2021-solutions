@@ -1,0 +1,22 @@
+title: Printf i en loop
+description: Jag blev less på att göra uppgifter, så här har ni, printf i en loop.
+authors:
+  - zzz
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: m4g1sk_f0rmat_strrrrang
+
+downloadable_files:
+  - container/printf-i-en-loop
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 300
+
+challenge_id: 25692c74-1657-4d19-a0ac-53d82c98a93f

@@ -1,0 +1,22 @@
+title: Karta-fixad
+description: Har sökt hand och hav efter mmap flaggor, kan du hitta min flagga?
+authors:
+  - zzz
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: tr4k1g_tr4k1g_sk4ttj4kt_:((
+
+downloadable_files:
+  - container/karta-fixad
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 500
+
+challenge_id: 0d40ab66-b70e-48bb-9ca5-f884da02ff9e

@@ -1,0 +1,24 @@
+title: Encoding 101
+description: |
+  Man kan skriva om data på många olika sätt. Precis som man i matten kan skriva tal i olika talbaser kan man konvertera data mellan olika format. Dessa olika format kallas "encodings" på engelska. Det finns många onlineverktyg som kan konvertera mellan dem.
+
+  Ett populärt format är hexadecimal. Om vi till exempel skriver om strängen "Hello World!" på hexadecimalt format så får vi: 48656c6c6f20576f726c6421
+
+  Här är en lista på lite olika encodings som finns: https://en.wikipedia.org/wiki/Binary-to-text_encoding
+  Försök nu "decode":a denna data, tillslut hittar du nog en flagga.
+
+  <code>55314e4e6533526f4d334a6c587a467a587a4e325a573566596a527a5a5638344e563933645852666433563066513d3d</code>
+
+authors:
+  - mkg
+categories:
+  - introduktion
+
+flag_format_prefix: SSM{
+flags: th3re_1s_3ven_b4se_85_wut_wut
+
+score: 10
+
+spec: 0.0.1
+
+challenge_id: 10c2cee3-e634-4057-9324-f404de0eccf2

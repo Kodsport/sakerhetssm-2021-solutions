@@ -1,0 +1,19 @@
+title: Gissa Talet
+description: "Vi har hittat på ett superkul spel. Klarar du av det? PS. Vissade klagade på att den första versionen var för lätt så la till dynamisk svårighet."
+authors:
+  - zetatwo
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: linear_congruential_generator_n0t_s0_r4ndom
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 250
+
+challenge_id: 65fbafbf-a7f5-4b6c-b5cf-7a1c32ea60a3

@@ -1,0 +1,8 @@
+.env
+*.asm
+*.lst
+*.o
+*.sym
+*.ihx
+*.sav
+*.map

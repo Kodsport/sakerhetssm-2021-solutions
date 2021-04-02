@@ -1,0 +1,20 @@
+title: Skumt Ljud
+description: Vi hittade en skum apparat som gav ett skumt ljud när vi satte på den, men vi har ingen aning vad det betyder. Kan du hjälpa oss avkoda meddelandet?
+authors:
+  - Mateusz Drwal
+categories:
+  - forensics
+
+flag_format_prefix: SSM{
+flags: "foreshadowing_:thinking:"
+
+downloadable_files:
+  - ljud.wav
+
+custom:
+  build_script: generate.py
+
+spec: 0.0.1
+score: 250
+
+challenge_id: e3fb3cd1-2088-49d3-ab16-ed104fd987b1

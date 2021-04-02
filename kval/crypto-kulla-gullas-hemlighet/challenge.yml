@@ -1,0 +1,19 @@
+title: Kulla-Gullas hemlighet
+description: "Kulla-Gulla har skickat ett hemligt meddelande till sin vän Lester S med hjälp av sitt legendariska kryptosystem Kulla-chiffret! Kan du dechiffrera meddelandet? Det är välkänt att Kulla-Gulla alltid avslutar sina meddelanden med förkortningen MVHKG.
+
+OBS, i den här uppgiften är flaggan inte på standardformatet SSM{...}. Lägg det du får ut inom SSM{...} innan du skickar in det i plattformen."
+authors:
+  - mkg
+categories:
+  - crypto
+
+downloadable_files:
+  - meddelande.txt
+
+flag_format_prefix: SSM{
+flags: MITTCHIFFERÄRBÄTTREÄNDITTLESTERMVHKG
+
+spec: 0.0.1
+score: 200
+
+challenge_id: 7e9af414-77da-4595-90fa-ec5f44090823

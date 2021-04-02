@@ -1,0 +1,11 @@
+{
+  "name": "web-xss-something",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/js/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^5.5.0"
+  }
+}

@@ -1,0 +1,1 @@
+0,15,30,45 * * * * root rm -rf /var/www/html/uploads_vyuncdpwhu/*; cp /welcome.txt /var/www/html/uploads_vyuncdpwhu/; chown www-data:www-data /var/www/html/uploads_vyuncdpwhu/welcome.txt

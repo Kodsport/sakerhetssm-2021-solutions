@@ -1,0 +1,17 @@
+title: Barad-dur
+description: "Mitt i slaget landar ett stort monster. På den rider den fruktade Häxmästaren av Angmar. Hur ska våra hjältar klara detta?"
+authors:
+  - zetatwo
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: I_4m_n0_mAn!!
+
+downloadable_files:
+  - witch_king_of_angmar
+
+spec: 0.0.1
+score: 500
+
+challenge_id: b9728467-c04b-4286-8fba-5a345988e23c

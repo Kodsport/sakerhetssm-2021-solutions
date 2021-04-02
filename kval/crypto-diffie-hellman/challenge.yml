@@ -1,0 +1,28 @@
+title: Sagan om Diffie och Hellmann
+description: "Det var en gång, i land långt långt borta, en fager prinsessa vid namn Diffie.
+Prinsessan var djupt förälskad i den stiliga unga Herr Hellmann, men då Hellmann kom från en fattigare familj förbjöds de från att träffa varandra.
+Som tur är var Diffie mycket tekniskt kunnig, och satte upp en server så att Hellmann säkert skulle kunna skicka meddelanden till henne.
+Diffies fader Konungen har fått tag på ett meddelande från Hellmann till Diffie, men kan inte läsa det då det är krypterat med hjälp av ett topphemligt nyckeldelningsprotokoll.
+Kan du hjälpa kungen avkoda meddelandet?"
+authors:
+  - Fredrik Ekholm
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: 4_pr1nc355_5h0uld_n3v3r_r3u53_h3r_53cr37s
+
+
+downloadable_files:
+  - container/diffies_server.py
+  - hellmans_message.txt
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 500
+
+challenge_id: d9eb1a3d-d6f9-46c4-a9ac-0ecc74823f48

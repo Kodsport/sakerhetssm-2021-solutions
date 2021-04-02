@@ -1,0 +1,20 @@
+title: Bästa bloggen
+description: Jag byggde en jättesnygg blogg, kolla in den! :)
+authors:
+  - asta
+categories:
+  - web
+
+flag_format_prefix: SSM{
+flags: åh_nej_ni_hittade_min_hemlis
+
+spec: 0.0.1
+
+service:
+  type: website
+  image: container
+  internal_port: 8080
+
+score: 175
+
+challenge_id: b930dba8-e46c-4e85-ab65-862a039bba18

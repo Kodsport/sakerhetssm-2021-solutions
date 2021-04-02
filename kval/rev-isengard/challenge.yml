@@ -1,0 +1,17 @@
+title: Isengård
+description: "Med Enternas hjälp lyckas hjältarna inta Isengård. Nu konfronteras de av Saruman själv!"
+authors:
+  - zetatwo
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: Y0ur_staff_1s_br0ken!
+
+downloadable_files:
+  - saruman
+
+spec: 0.0.1
+score: 200
+
+challenge_id: e61e501e-6888-4f9e-b7a2-9aaaf8406bdb

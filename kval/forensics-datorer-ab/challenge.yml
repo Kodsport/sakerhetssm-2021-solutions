@@ -1,0 +1,17 @@
+title: Datorer AB
+description: Företaget Datorer AB har haft ett dataintrång. Nu är det ditt jobb att lista ut vad som stals!
+authors:
+  - mkg
+categories:
+  - forensics
+
+flag_format_prefix: SSM{
+flags: https://youtu.be/elu6TeVEwyY
+
+downloadable_files:
+ - chall.pcapng
+
+spec: 0.0.1
+score: 100
+
+challenge_id: e305d052-cbd5-4f8a-82ba-4d7f211d7454

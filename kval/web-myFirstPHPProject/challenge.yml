@@ -1,0 +1,17 @@
+title: My First PHP Project
+description: I made a website for sharing images and notes with your friends! I ensured that there aren't any security issues by completly testing the image upload functionality before creating the note upload functionality and testing it too.
+authors:
+  - thpeter
+  - Mateusz Drwal
+categories:
+  - web
+flag_format_prefix: SSM{
+flags: al1_0f_yo4r_php_4r3_b3l0ng_t0_4s
+service:
+  type: website
+  image: container
+  internal_port: 80
+spec: 0.0.1
+score: 300
+
+challenge_id: 33d15499-7b16-4137-b496-d356a308dc87

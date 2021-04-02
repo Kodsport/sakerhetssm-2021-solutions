@@ -1,0 +1,22 @@
+title: Lights out! - Affischproblemet
+description: |
+  Hur ska knapparna stå för att lampan ska lysa? 
+
+  OBS, i den här uppgiften är flaggan inte på standardformatet SSM{...}. Lägg det du får ut inom SSM{...} innan du skickar in det i plattformen.
+authors:
+  - Aron Bergman
+  - Mateusz Drwal
+  - mkg
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: "01000111"
+
+downloadable_files:
+  - affisch-2021.pdf
+
+spec: 0.0.1
+score: 100
+
+challenge_id: 35a8de2d-f8f5-4583-9b17-519f85b299be

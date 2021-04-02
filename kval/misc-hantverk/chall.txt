@@ -1,0 +1,16 @@
+3 lm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, avsluta och fäst tråden
+3 lm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 6 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, avsluta och fäst tråden
+
+3 lm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, avsluta och fäst tråden
+
+3 lm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, avsluta och fäst tråden
+
+3 lm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 6 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 7 lm, 1 lm, vänd, 10 fm, avsluta och fäst tråden
+10 lm, 1 lm, vänd, 6 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, 1 lm, vänd, 3 fm, avsluta och fäst tråden

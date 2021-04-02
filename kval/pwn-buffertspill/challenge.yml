@@ -1,0 +1,22 @@
+title: Buffertspill
+description: Har ni hört om den nya buggtypen, buffertspill?
+authors:
+  - zzz
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: AAAA_buff3rt$p1ll_BBBB
+
+downloadable_files:
+  - container/buffertspill
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 150
+
+challenge_id: 36303bdc-aef4-407f-80a6-81956cd2c1b9

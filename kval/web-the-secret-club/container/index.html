@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Secret Club</title>
+        <style>
+            body, html {
+                margin: 0;
+                height: 100%;
+            }
+
+            body {
+                background-image: url("bak.jpeg");
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            * {
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                color: white;
+            }
+
+            label {
+                font-size: larger;
+            }
+
+            h1 {
+                font-size: 70px;
+            }
+
+            button, input {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            The Secret Club
+        </h1>
+        <label>Password:</label>
+        <input id="textbox" type="text">
+        <button id="btn" onclick="checkpass()">Enter</button>
+        
+        <script src="/script.js"></script>
+    </body>
+</html>

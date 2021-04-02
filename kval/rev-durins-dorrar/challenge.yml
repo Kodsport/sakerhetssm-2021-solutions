@@ -1,0 +1,17 @@
+title: Durins Dörrar
+description: "Brödraskapet når fram till Durins Dörrar, men hur ska de ta sig in? En inskription syns på väggen - Det låter som en gåta."
+authors:
+  - zetatwo
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: Annon_edhellen_edro_hi_ammen_m3llon
+
+downloadable_files:
+  - speak_friend_and_enter
+
+spec: 0.0.1
+score: 100
+
+challenge_id: e79189ad-061f-49b4-8c55-b31330b6f29f

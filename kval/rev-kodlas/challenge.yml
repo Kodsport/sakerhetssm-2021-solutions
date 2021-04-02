@@ -1,0 +1,21 @@
+title: Kodlås
+description: |
+  Vi har hittat en låst dörr med ett kodlås. Lyckligtvis har vi även hittat ritningar över kodlåset. Kan du hitta koden som låser upp dörren?
+
+  OBS: flaggan följer inte formatet utan är SSM{<koden>}, ex. SSM{123456}
+authors:
+  - zetatwo
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: "560392509482059"
+
+downloadable_files:
+  - kodlas.v
+  - keypad.png
+
+spec: 0.0.1
+score: 250
+
+challenge_id: dcf9a014-26a0-4f16-abd9-e92085ec3c9a
