@@ -1,6 +1,7 @@
 import scipy.io.wavfile
 import numpy as np
 
+# Should be mono, not stereo
 arr = scipy.io.wavfile.read("ljud.wav")[1]
 
 arr = abs(arr)
@@ -33,7 +34,7 @@ while arr.shape != (0,):
     if not nextmax:
         nextmax = len(arr)
     arr = arr[nextmax:]
-    string += "0" * round(nextmax / clock)
+    string += "0" * int(round(nextmax / clock))
 
     if arr.shape == (0,):
         break
@@ -42,7 +43,7 @@ while arr.shape != (0,):
     if not nextmin:
         nextmin = len(arr)
     arr = arr[nextmin:]
-    string += "1" * round(nextmin / clock)
+    string += "1" * int(round(nextmin / clock))
 
 string = string[
     4:
