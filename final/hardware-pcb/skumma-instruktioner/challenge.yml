@@ -1,0 +1,24 @@
+title: Skumma instruktioner
+description: |
+  OBS: Det här är ett problem som kräver fysisk hårdvara, och är bara lösbart av finalister. Om du är finalist, lös problemet "Fair play" först. Du behöver också ha låst upp hårdvaran som du gör i problemet "Skum hårdvara".
+
+  Våra källor säger att apparaten har en till hemlighet. Vi tror att källkoden till apparaten kan behövas nu, så vi bifogar den med detta meddelande.
+
+authors:
+  - Mateusz Drwal
+categories:
+  - hardware
+  - reversing
+
+downloadable_files:
+  - firmware.asm
+
+flag_format_prefix: SSM{
+flags: h4r_du_7r077n47_p4_4vr_4n?
+
+spec: 0.0.1
+
+challenge_id: 54d15e82-0020-40e2-8598-2b57301ff836
+score: 500
+custom:
+  order: 4

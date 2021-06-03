@@ -1,0 +1,26 @@
+title: Hip-Hop-CPU
+description: >
+  HipHop™ Inc. håller på att utveckla ett program <code>exec</code> som ska hjälpa dig hitta de
+  bästa rimmen till din nya hip-hop EP, och behöver testare!
+
+  För att kunna hitta rejälare buggar har ni <code>sudo</code>-access till executablen, men bara via
+  wrapper. Kör <code>sudo -l</code> för mer info.
+
+  Login sker via SSH på usern <code>guest</code> på servern <code>35.217.14.54</code>. Varje lag har
+  en egen port, och anslutning sker med private key authentication. DM:a <code>Inte Jonathan Lööv</code>
+  på Discord för att få ert lags key och port.
+
+authors:
+  - loovjo
+categories:
+  - boot2root
+
+flag_format_prefix: SSM{
+flags: https://youtu.be/pI2cEFCyKU8?t=97
+
+spec: 0.0.1
+
+challenge_id: 4049d788-7a52-492b-a058-fb9b054c5429
+score: 200
+custom:
+  order: 21

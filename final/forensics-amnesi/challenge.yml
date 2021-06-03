@@ -1,0 +1,17 @@
+title: Amnesi
+description: Du har fått tillgång till en minnesdump av <a href="https://drive.google.com/file/d/1wAWVxY3pk94zmhUatQQh0w9KzhfeS19c/view?usp=sharing">Johns dator</a>. Kan du ta reda på vad han gömmer?
+
+authors:
+  - Axel Nilsson
+categories:
+  - forensics
+
+flag_format_prefix: SSM{
+flags: 1_w1ll_4lw4y5_l0v3_p41n7_5843
+
+spec: 0.0.1
+score: 400
+custom:
+  order: 63
+
+challenge_id: d360a0d9-a715-4e90-94f4-2de3dc0b9845

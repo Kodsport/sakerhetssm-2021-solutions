@@ -1,0 +1,26 @@
+title: Studskatten
+description: |
+  Den här studsiga katten frågar mig efter en flagga...
+
+  Se till att lägga SSM{...} runt det du får ut innan du skickar in
+authors:
+  - Fredrik Ekholm
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: REPA SKRAPA RISPA KLIA KRAFSA
+
+predefined_services:
+  - type: website
+    url: https://scratch.mit.edu/projects/527647548
+
+spec: 0.0.1
+
+downloadable_files:
+  - enc_flag.png
+
+challenge_id: 6fe7c083-1917-48aa-ac11-e04594f22f0f
+score: 150
+custom:
+  order: 71

@@ -1,0 +1,22 @@
+title: Skvallermaskoten Del 2
+description: |
+  Sven, Sveriges maskot för alla vetenskapsolympiader, har varit stygg. Det ryktas om att han delat med sig av Sveriges hemliga uppvärmningsrutiner till norges maskot Nils. Nu behöver vi din hjälp med att ta fast Sven.
+
+  Sven gömmer sig nu någonstans långt borta. Han har insett att Google Maps inte är säkert, så använder en annan tjänst för att skriva om sin resa.
+
+  Kan du hitta Sven?
+
+authors:
+  - Fredrik Ekholm
+categories:
+  - OSINT
+
+flag_format_prefix: SSM{
+flags: Sv3n_l1k3s_n0rth_p0l3
+
+spec: 0.0.1
+score: 100
+custom:
+  order: 52
+
+challenge_id: 5ee72069-66cb-4d9e-a79d-4ac2d0c471e6

@@ -1,0 +1,23 @@
+title: Fair play
+description: |
+  OBS: Det här är ett problem som kräver fysisk hårdvara, och är bara lösbart av finalister.
+
+  Hej! Du ska ha fått ett kuvert som du inte har fått öppna. Innan du öppnar det vill vi bara dubbelkolla att allt är rätt. Följ dessa instruktioner för att få flaggan till det här problemet:
+  <ol><li>Hämta kuvertet och en penna, om du inte redan har det bredvid dig.</li><li>På framsidan av kuvertet, <a href="https://www.wikihow.com/Draw-a-Cat">rita en katt</a>. (Ja, verkligen)</li><li>Filma en kort video där du tydligt visar katten och numret på lappen på kuvertet, samt filmar kuvertet från alla sidor för att tydligt visa att det inte har öppnats. <a href="http://files.mateuszdrwal.com/fair_play_exempel.mp4">Här finns ett exempel på en sån video</a>.</li><li>Skicka videon till mateuszdrwal#9960 på discord.</li><li>Jag åtekommer så snabbt jag kan och säger om allt ser bra ut eller inte. Efter att alla i laget skickar en video som verkar ok, skickar jag uppgiftens flagga till er.</li><li>Efter att jag bekräftar att din video ser bra ut kan du öppna kuvertet!</li></ol> 
+  Lycka till med hårdvaruchallen!
+  - Mateusz
+
+authors:
+  - Mateusz Drwal
+categories:
+  - hardware
+
+flag_format_prefix: SSM{
+flags: 74ck_för_a77_du_sp3l4r_ärl167!
+
+spec: 0.0.1
+
+challenge_id: 5e19c88b-e0cf-4589-afbb-b68eeebb14c3
+score: 300
+custom:
+  order: 1

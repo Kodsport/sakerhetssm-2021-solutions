@@ -1,0 +1,22 @@
+title: Platformer (Expert)
+description: Come try this new game I found, I heard they were giving away flags (same link).
+
+authors:
+  - Fredrik Ekholm
+  - Leopold Hermansson
+  - Axel Nilsson
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: 7h15_w45_5upp053d_70_b3_1mp0551bl3
+
+downloadable_files:
+  - ../chall.zip
+
+spec: 0.0.1
+score: 200
+custom:
+  order: 14
+
+challenge_id: 37bcbe5b-1f38-4121-8c1c-06cd8f5f88e9

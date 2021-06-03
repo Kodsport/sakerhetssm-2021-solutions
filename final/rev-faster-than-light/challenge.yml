@@ -1,0 +1,19 @@
+title: Faster than Light
+description: Är din processor snabbare än ljuset?
+authors:
+  - loovjo
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: f0r3ver_in_darkness
+
+spec: 0.0.1
+
+downloadable_files:
+  - ftl.c
+
+challenge_id: df3cda45-5ff3-4c0b-a562-773faeb37f0d
+score: 500
+custom:
+  order: 73

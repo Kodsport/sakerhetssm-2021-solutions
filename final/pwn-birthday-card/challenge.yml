@@ -1,0 +1,24 @@
+title: Birthday Card
+description: Panik! Your friend's birthday is tomorrow and you have still not managed to get a birthday card for them. Luckily, you can use this super handy tool to generate one for them. Kalm.
+authors:
+  - zetatwo
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: BirthdayBall00nsAndBirthd4yFlagz
+
+downloadable_files:
+  - container/birthday-card
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 300
+custom:
+  order: 82
+
+challenge_id: 578845f4-34ae-4290-acf1-cc793ccdba29

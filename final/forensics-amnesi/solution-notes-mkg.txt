@@ -1,0 +1,146 @@
+
+https://www.howtoforge.com/tutorial/how-to-install-and-use-volatility-memory-forensic-tool/
+https://tools.kali.org/forensics/volatility
+
+
+strings
+
+SSM{1_w1ll_4l (Hint: Sm9obiBoYXIgc3blcnQgYXR0IGtvbW1hIGlo5Wcgc2luYSBs9nNlbm9yZCBvY2ggYnJ1a2FyIGTkcmb2ciBrb3BpZXJhIPZ2ZXIgZGVtIGb2ciBhdHQgaW50ZSBza3JpdmEgZmVs)
+Del 1 - SSM{1_w1ll_4l (Hint: Sm9obiBoYXIgc3blcnQgYXR0IGtvbW1hIGlo5Wcgc2luYSBs9nNlbm9yZCBvY2ggYnJ1a2FyIGTkcmb2ciBrb3BpZXJhIPZ2ZXIgZGVtIGb2ciBhdHQgaW50ZSBza3JpdmEgZmVs)typed text or the touch keyboard to enter characters.
+Del 1 - SSM{1_w1ll_4l (Hint: Sm9obiBoYXIgc3blcnQgYXR0IGtvbW1hIGlo5Wcgc2luYSBs9nNlbm9yZCBvY2ggYnJ1a2FyIGTkcmb2ciBrb3BpZXJhIPZ2ZXIgZGVtIGb2ciBhdHQgaW50ZSBza3JpdmEgZmVs)
+Del 1 - SSM{1_w1ll_4l (Hint: Sm9obiBoYXIgc3blcnQgYXR0IGtvbW1hIGlo5Wcgc2luYSBs9nNlbm9yZCBvY2ggYnJ1a2FyIGTkcmb2ciBrb3BpZXJhIPZ2ZXIgZGVtIGb2ciBhdHQgaW50ZSBza3JpdmEgZmVs)
+Del 1 - SSM{1_w1ll_4l (Hint: Sm9obiBoYXIgc3blcnQgYXR0IGtvbW1hIGlo5Wcgc2luYSBs9nNlbm9yZCBvY2ggYnJ1a2FyIGTkcmb2ciBrb3BpZXJhIPZ2ZXIgZGVtIGb2ciBhdHQgaW50ZSBza3JpdmEgZmVs)
+
+
+John har svårt att komma ihåg sina lösenord och brukar därför kopiera över dem för att inte skriva fel
+
+
+volatility imageinfo -f john
+
+Volatility Foundation Volatility Framework 2.6
+INFO    : volatility.debug    : Determining profile based on KDBG search...
+          Suggested Profile(s) : Win7SP1x64, Win7SP0x64, Win2008R2SP0x64, Win2008R2SP1x64_23418, Win2008R2SP1x64, Win7SP1x64_23418
+                     AS Layer1 : WindowsAMD64PagedMemory (Kernel AS)
+                     AS Layer2 : FileAddressSpace (/home/mkg/Downloads/testsolution/john)
+                      PAE type : No PAE
+                           DTB : 0x187000L
+                          KDBG : 0xf80002802120L
+          Number of Processors : 1
+     Image Type (Service Pack) : 1
+                KPCR for CPU 0 : 0xfffff80002804000L
+             KUSER_SHARED_DATA : 0xfffff78000000000L
+           Image date and time : 2021-05-08 11:22:58 UTC+0000
+     Image local date and time : 2021-05-08 04:22:58 -0700
+
+
+
+volatility --profile=Win7SP1x64 pslist -f john
+
+
+Volatility Foundation Volatility Framework 2.6
+Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+------------------ -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0xfffffa80018ad040 System                    4      0     76      537 ------      0 2021-05-08 19:21:26 UTC+0000                                 
+0xfffffa80028e91c0 smss.exe                224      4      2       29 ------      0 2021-05-08 19:21:26 UTC+0000                                 
+0xfffffa80027fa060 csrss.exe               300    284      9      460      0      0 2021-05-08 19:21:31 UTC+0000                                 
+0xfffffa80018b06e0 wininit.exe             336    284      3       75      0      0 2021-05-08 19:21:31 UTC+0000                                 
+0xfffffa800297b410 csrss.exe               344    328      8      228      1      0 2021-05-08 19:21:31 UTC+0000                                 
+0xfffffa80033c7740 winlogon.exe            372    328      5      132      1      0 2021-05-08 19:21:31 UTC+0000                                 
+0xfffffa8003409b00 services.exe            428    336      7      203      0      0 2021-05-08 19:21:31 UTC+0000                                 
+0xfffffa80034556e0 lsass.exe               448    336      8      759      0      0 2021-05-08 19:21:32 UTC+0000                                 
+0xfffffa8002fe2b00 lsm.exe                 456    336     10      140      0      0 2021-05-08 19:21:32 UTC+0000                                 
+0xfffffa80034b3060 svchost.exe             544    428     10      359      0      0 2021-05-08 19:21:32 UTC+0000                                 
+0xfffffa80034d63f0 svchost.exe             616    428      9      270      0      0 2021-05-08 19:21:32 UTC+0000                                 
+0xfffffa800353ab00 sppsvc.exe              776    428      4      155      0      0 2021-05-08 19:21:33 UTC+0000                                 
+0xfffffa800353cb00 svchost.exe             820    428     27      626      0      0 2021-05-08 19:21:34 UTC+0000                                 
+0xfffffa8003566b00 svchost.exe             844    428     29     1102      0      0 2021-05-08 19:21:34 UTC+0000                                 
+0xfffffa800357ab00 svchost.exe             892    428     23      597      0      0 2021-05-08 19:21:34 UTC+0000                                 
+0xfffffa80018f8b00 svchost.exe             240    428     20      551      0      0 2021-05-08 19:22:01 UTC+0000                                 
+0xfffffa800363a060 svchost.exe             304    428     17      487      0      0 2021-05-08 19:22:01 UTC+0000                                 
+0xfffffa80036e0b00 spoolsv.exe            1152    428     14      294      0      0 2021-05-08 19:22:02 UTC+0000                                 
+0xfffffa80037235c0 svchost.exe            1184    428     18      307      0      0 2021-05-08 19:22:02 UTC+0000                                 
+0xfffffa80037673e0 svchost.exe            1264    428     10      147      0      0 2021-05-08 19:22:03 UTC+0000                                 
+0xfffffa80037d3740 svchost.exe            1972    428     20      281      0      0 2021-05-08 19:23:27 UTC+0000                                 
+0xfffffa80019a42e0 svchost.exe            1256    428      9      350      0      0 2021-05-08 19:23:39 UTC+0000                                 
+0xfffffa8001a8ab00 SearchIndexer.         1540    428     13      713      0      0 2021-05-08 19:23:42 UTC+0000                                 
+0xfffffa8001a96b00 taskhost.exe           2164    428     10      296      1      0 2021-05-08 19:23:50 UTC+0000                                 
+0xfffffa8001ad1330 dwm.exe                2224    820      3       82      1      0 2021-05-08 19:23:50 UTC+0000                                 
+0xfffffa8001c31b00 explorer.exe           2252   2216     29      935      1      0 2021-05-08 19:23:50 UTC+0000                                 
+0xfffffa8001c4db00 regsvr32.exe           2428   2252      0 --------      1      0 2021-05-08 19:23:51 UTC+0000   2021-05-08 19:23:52 UTC+0000  
+0xfffffa8001ba2b00 mscorsvw.exe           2484    428      6       93      0      0 2021-05-08 19:24:04 UTC+0000                                 
+0xfffffa8001d77060 svchost.exe            2516    428     13      340      0      0 2021-05-08 19:24:05 UTC+0000                                 
+0xfffffa8001cbcb00 wmpnetwk.exe           2648    428     19      415      0      0 2021-05-08 19:24:09 UTC+0000                                 
+0xfffffa80021f59b0 mspaint.exe            2616   2252      5      121      1      0 2021-05-08 10:48:38 UTC+0000                                 
+0xfffffa8001e44b00 svchost.exe            2752    428      6      101      0      0 2021-05-08 10:48:38 UTC+0000                                 
+0xfffffa8001eeb3e0 SearchProtocol         2508   1540      8      278      0      0 2021-05-08 11:22:44 UTC+0000                                 
+0xfffffa800242f060 SearchFilterHo         1624   1540      5       98      0      0 2021-05-08 11:22:44 UTC+0000
+
+
+interesting: mspaint.exe
+
+
+volatility --profile=Win7SP1x64 pstree -f john
+
+Volatility Foundation Volatility Framework 2.6
+Name                                                  Pid   PPid   Thds   Hnds Time
+-------------------------------------------------- ------ ------ ------ ------ ----
+ 0xfffffa80027fa060:csrss.exe                         300    284      9    460 2021-05-08 19:21:31 UTC+0000
+ 0xfffffa80018b06e0:wininit.exe                       336    284      3     75 2021-05-08 19:21:31 UTC+0000
+. 0xfffffa8003409b00:services.exe                     428    336      7    203 2021-05-08 19:21:31 UTC+0000
+.. 0xfffffa80036e0b00:spoolsv.exe                    1152    428     14    294 2021-05-08 19:22:02 UTC+0000
+.. 0xfffffa8001e44b00:svchost.exe                    2752    428      6    101 2021-05-08 10:48:38 UTC+0000
+.. 0xfffffa800353ab00:sppsvc.exe                      776    428      4    155 2021-05-08 19:21:33 UTC+0000
+.. 0xfffffa8001cbcb00:wmpnetwk.exe                   2648    428     19    415 2021-05-08 19:24:09 UTC+0000
+.. 0xfffffa8001a8ab00:SearchIndexer.                 1540    428     13    713 2021-05-08 19:23:42 UTC+0000
+... 0xfffffa800242f060:SearchFilterHo                1624   1540      5     98 2021-05-08 11:22:44 UTC+0000
+... 0xfffffa8001eeb3e0:SearchProtocol                2508   1540      8    278 2021-05-08 11:22:44 UTC+0000
+.. 0xfffffa8001ba2b00:mscorsvw.exe                   2484    428      6     93 2021-05-08 19:24:04 UTC+0000
+.. 0xfffffa80037235c0:svchost.exe                    1184    428     18    307 2021-05-08 19:22:02 UTC+0000
+.. 0xfffffa80018f8b00:svchost.exe                     240    428     20    551 2021-05-08 19:22:01 UTC+0000
+.. 0xfffffa800363a060:svchost.exe                     304    428     17    487 2021-05-08 19:22:01 UTC+0000
+.. 0xfffffa800353cb00:svchost.exe                     820    428     27    626 2021-05-08 19:21:34 UTC+0000
+... 0xfffffa8001ad1330:dwm.exe                       2224    820      3     82 2021-05-08 19:23:50 UTC+0000
+.. 0xfffffa80037d3740:svchost.exe                    1972    428     20    281 2021-05-08 19:23:27 UTC+0000
+.. 0xfffffa80034b3060:svchost.exe                     544    428     10    359 2021-05-08 19:21:32 UTC+0000
+.. 0xfffffa8003566b00:svchost.exe                     844    428     29   1102 2021-05-08 19:21:34 UTC+0000
+.. 0xfffffa8001d77060:svchost.exe                    2516    428     13    340 2021-05-08 19:24:05 UTC+0000
+.. 0xfffffa8001a96b00:taskhost.exe                   2164    428     10    296 2021-05-08 19:23:50 UTC+0000
+.. 0xfffffa80034d63f0:svchost.exe                     616    428      9    270 2021-05-08 19:21:32 UTC+0000
+.. 0xfffffa80037673e0:svchost.exe                    1264    428     10    147 2021-05-08 19:22:03 UTC+0000
+.. 0xfffffa80019a42e0:svchost.exe                    1256    428      9    350 2021-05-08 19:23:39 UTC+0000
+.. 0xfffffa800357ab00:svchost.exe                     892    428     23    597 2021-05-08 19:21:34 UTC+0000
+. 0xfffffa80034556e0:lsass.exe                        448    336      8    759 2021-05-08 19:21:32 UTC+0000
+. 0xfffffa8002fe2b00:lsm.exe                          456    336     10    140 2021-05-08 19:21:32 UTC+0000
+ 0xfffffa80018ad040:System                              4      0     76    537 2021-05-08 19:21:26 UTC+0000
+. 0xfffffa80028e91c0:smss.exe                         224      4      2     29 2021-05-08 19:21:26 UTC+0000
+ 0xfffffa8001c31b00:explorer.exe                     2252   2216     29    935 2021-05-08 19:23:50 UTC+0000
+. 0xfffffa80021f59b0:mspaint.exe                     2616   2252      5    121 2021-05-08 10:48:38 UTC+0000
+. 0xfffffa8001c4db00:regsvr32.exe                    2428   2252      0 ------ 2021-05-08 19:23:51 UTC+0000
+ 0xfffffa800297b410:csrss.exe                         344    328      8    228 2021-05-08 19:21:31 UTC+0000
+ 0xfffffa80033c7740:winlogon.exe                      372    328      5    132 2021-05-08 19:21:31 UTC+0000
+
+
+
+volatility --profile=Win7SP1x64 clipboard -f john
+
+Volatility Foundation Volatility Framework 2.6
+Session    WindowStation Format                         Handle Object             Data                                              
+---------- ------------- ------------------ ------------------ ------------------ --------------------------------------------------
+         1 WinSta0       CF_UNICODETEXT               0x190229 0xfffff900c01a0270 Del 2 - w4y5_l0v3 (Hint:... n?got favoritprogram?)
+         1 WinSta0       CF_TEXT                  0x7400000000 ------------------                                                   
+         1 WinSta0       CF_LOCALE                    0x100221 0xfffff900c253b480                                                   
+         1 WinSta0       0x0L                              0x0 ------------------
+
+
+
+https://bananamafia.dev/post/mem/
+
+
+Del 3
+_p41n7_5843}
+
+
+
+SSM{1_w1ll_4lw4y5_l0v3_p41n7_5843}
+
+

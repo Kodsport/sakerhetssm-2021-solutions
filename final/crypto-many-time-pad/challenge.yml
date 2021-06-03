@@ -1,0 +1,26 @@
+title: Many-time Pad
+description: "Wikipedia säger att One-time pad är 'en form av kryptering som har bevisats vara omöjlig att forcera'.
+Då detta låter väldigt lovande bestämde jag mig för att utöka konceptet till en 'Many-time Pad'"
+
+authors:
+  - Fredrik Ekholm
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: y0u_c4n_n3v3r_tru5t_w1k1p3d14
+
+downloadable_files:
+  - container/server.py
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 100
+custom:
+  order: 31
+
+challenge_id: 4b2a8bf8-a436-4bbd-ae3d-725df7d132d5

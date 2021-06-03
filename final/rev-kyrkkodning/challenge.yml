@@ -1,0 +1,19 @@
+title: Kyrkkodning
+description: Oj vad många lambda! Kan detta ha något med kyrkkodning att göra?
+authors:
+  - Fredrik Ekholm
+categories:
+  - reversing
+
+flag_format_prefix: SSM{
+flags: l4mbd4_m4st3r
+
+spec: 0.0.1
+
+downloadable_files:
+  - lambda.py
+
+challenge_id: 3d10184b-b3c8-4653-a20d-c7779fead953
+score: 250
+custom:
+  order: 72

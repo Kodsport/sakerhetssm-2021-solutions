@@ -1,0 +1,22 @@
+title: Platformer (Impossible)
+description: Come try this new game I found, I heard they were giving away flags (same link).
+
+authors:
+  - Fredrik Ekholm
+  - Leopold Hermansson
+  - Axel Nilsson
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: "https://www.youtube.com/watch?v=7Wv_jJQ3XCE"
+
+downloadable_files:
+  - ../chall.zip
+
+spec: 0.0.1
+score: 200
+custom:
+  order: 15
+
+challenge_id: a465707f-6d7c-4901-b9e1-15910eaa37ea

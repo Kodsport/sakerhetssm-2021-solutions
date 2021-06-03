@@ -1,0 +1,22 @@
+title: SoftSchool
+description: "Nu har vi fått ett nytt skolsystem igen. Äsch, det spelar ändå ingen roll, dags att fippla med betyg! (Användarnamn: <code>elev5436@skola.se</code> Lösen: <code>Sommar2021</code>)"
+authors:
+  - mkg
+categories:
+  - web
+flag_format_prefix: SSM{
+flags: skolplattformar_brukar_faktiskt_vara_ganska_kassa
+
+downloadable_files:
+  - container/server.py
+
+service:
+  type: website
+  image: container
+  internal_port: 8080
+spec: 0.0.1
+
+challenge_id: 0e31e0c2-edeb-4872-b18c-fa3ed994cba2
+score: 100
+custom:
+  order: 41

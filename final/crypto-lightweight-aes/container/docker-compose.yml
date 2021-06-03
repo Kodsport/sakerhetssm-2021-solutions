@@ -1,0 +1,7 @@
+# for easier local testing
+version: "3"
+services:
+  web:
+    build: .
+    ports:
+      - 50000:50000

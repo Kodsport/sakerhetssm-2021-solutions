@@ -1,0 +1,22 @@
+title: Platformer (Hard)
+description: Come try this new game I found, I heard they were giving away flags (same link).
+
+authors:
+  - Fredrik Ekholm
+  - Leopold Hermansson
+  - Axel Nilsson
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: 4r3_y0u_4_7w17ch_57r34m3r?
+
+downloadable_files:
+  - ../chall.zip
+
+spec: 0.0.1
+score: 150
+custom:
+  order: 13
+
+challenge_id: 0a15dd10-9107-46a0-b22a-f89d5c9f3d2a

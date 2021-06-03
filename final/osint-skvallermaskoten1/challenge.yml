@@ -1,0 +1,27 @@
+title: Skvallermaskoten Del 1
+description: |
+  Sven, Sveriges maskot för alla vetenskapsolympiader, har varit stygg. Det ryktas om att han delat med sig av Sveriges hemliga uppvärmningsrutiner till norges maskot Nils. Nu behöver vi din hjälp med att ta fast Sven.
+
+  Vi har hittat tre bilder på platser där Sven har varit. Kan du lokalisera platserna?
+
+  Det är välkänt att Sven alltid ger Google Maps-Reviews på platser han varit på. Men av någon anledning har alla som godkänner Reviews tagit semester, så om du tror att du har listat ut någon av platserna kan du skriva till någon av arrangörerna på discord istället.
+
+authors:
+  - Fredrik Ekholm
+categories:
+  - OSINT
+
+flag_format_prefix: SSM{
+flags: sv3nth3p0larb3ar_h45_b3en_7o_m4ny_co0l_p14ce5
+
+downloadable_files:
+  - img1.png
+  - img2.png
+  - img3.png
+
+spec: 0.0.1
+score: 200
+custom:
+  order: 51
+
+challenge_id: 9f47749c-f40e-4f8d-8502-8556b5964a78

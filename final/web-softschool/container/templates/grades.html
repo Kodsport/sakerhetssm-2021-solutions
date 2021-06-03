@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SoftSchool</title>
+    <link href="static/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="page-in">
+        <div class="page">
+            <div class="main">
+                <div class="header">
+                    <div class="header-top">
+                        <h1>Soft<span>School</span></h1>
+                    </div>
+                    <div class="header-bottom">
+                        <h2>Den bästa skolplattformen sen Bexter!</h2>
+                    </div>
+                    <div class="topmenu">
+                        <ul>
+                            <li><a href="/"><span>Hem</span></a></li>
+                            <li><a href="/about"><span>Om oss</span></a></li>
+                            <li><a href="/profile"><span>Profil</span></a></li>
+                            <li><a href="/grades"><span>Betyg</span></a></li>
+                            <li><a href="/login"><span>Logga in</span></a></li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content-left">
+                        <h1>Betyg</h1>
+                        {% if typ=="student" %}
+                            <p>Här kan du se dina betyg</p>
+                            <h2>{{name}}</h2>
+                            <table style="width:100%">
+                                <tr>
+                                  <th>Kurs</th>
+                                  <th>Betyg</th>
+                                </tr>
+                                <tr>
+                                  <td>Korttornsbygge</td>
+                                  <td>3 meter</td>
+                                </tr>
+                                <tr>
+                                  <td>Differentialekvationer</td>
+                                  <td>Laplace</td>
+                                </tr>
+                                <tr>
+                                  <td>Diskning</td>
+                                  <td>10 st/m</td>
+                                </tr>
+                                <tr>
+                                  <td>Fågelskådning</td>
+                                  <td>Blåmes</td>
+                                </tr>
+                                <tr>
+                                  <td>Kvantfysik</td>
+                                  <td>Schrödinger</td>
+                                </tr>
+                              </table> 
+                        {% else %}
+                            <p>SSM{skolplattformar_brukar_faktiskt_vara_ganska_kassa}</p>
+                        {% endif %}
+                    </div>
+                    <div class="content-right">
+                    </div>
+                </div>
+                <div class="footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

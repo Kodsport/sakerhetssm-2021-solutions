@@ -1,0 +1,20 @@
+title: Your Hackername - Sentor
+description: Detta är en sponsorsuppgift från vår huvudsponsor Sentor.
+authors:
+  - Sentor
+categories:
+  - web
+
+flag_format_prefix: SSM{
+flags: 1_g0t_my_h4ck3r_n!ck_fr0m_Sentor
+
+spec: 0.0.1
+
+predefined_services:
+  - type: website
+    url: "http://sentorchallenge.se/"
+
+challenge_id: 5bb4090f-5cd6-4839-98a0-43728579d5d9
+score: 400
+custom:
+  order: 43

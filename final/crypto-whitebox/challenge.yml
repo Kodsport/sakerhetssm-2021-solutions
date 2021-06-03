@@ -1,0 +1,21 @@
+title: The Big Bad Tables
+description: We captured the agent but they managed to encrypt the intel with this program. Can you get the information back for us?
+
+authors:
+  - zetatwo
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: Whitebox_Blackbox_Greybox_Watbox
+
+downloadable_files:
+  - encryptor.py
+  - secret-message.txt
+
+spec: 0.0.1
+score: 500
+custom:
+  order: 35
+
+challenge_id: 435d69f9-9be6-4109-9868-4af34428df5d

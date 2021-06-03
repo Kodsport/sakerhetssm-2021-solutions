@@ -1,0 +1,21 @@
+title: Neural Login System
+description: Jag har hört att investerare gillar när man har AI i sin produkt, så varför inte använda det för att logga in?
+
+authors:
+  - Fredrik Ekholm
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: neural_login_87e9465S0So7
+
+downloadable_files:
+  - model
+  - login.py
+
+spec: 0.0.1
+score: 300
+custom:
+  order: 34
+
+challenge_id: a1e4c192-a248-485e-a676-db4062291eba

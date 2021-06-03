@@ -1,0 +1,4 @@
+[build]
+
+[target.x86_64-unknown-linux-musl]
+linker = "/opt/homebrew/Cellar/llvm/12.0.0/bin/lld"

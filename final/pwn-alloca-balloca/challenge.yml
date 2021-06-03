@@ -1,0 +1,25 @@
+title: Alloca-balloca
+description: Alloca måste vara snabbare än malloc, den ligger ju på stacken och sånt. Men något balla ur...
+authors:
+  - zzz
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: d3t_b4ll4r_uTTT_d00ma_d000ma_4ll0ca
+
+downloadable_files:
+  - alloca-balloca.c
+  - container/alloca-balloca
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 500
+custom:
+  order: 83
+
+challenge_id: 3ad35dad-173a-4508-a267-1e2096d60ff2

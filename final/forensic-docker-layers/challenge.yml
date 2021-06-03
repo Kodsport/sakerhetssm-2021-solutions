@@ -1,0 +1,23 @@
+title: Peeling of the Docker layers
+description: |
+  Låt oss förstå Docker under alla dessa lager.
+
+  <code>docker pull ghcr.io/leppan02/docker-layers:latest</code>
+
+authors:
+  - Leopold Hermansson
+categories:
+  - forensics
+
+flag_format_prefix: SSM{
+flags: d0ck3r_15_n07_4lw4y5_54f3!!
+
+downloadable_files:
+  - ./Dockerfile
+
+spec: 0.0.1
+score: 150
+custom:
+  order: 62
+
+challenge_id: eb514e0e-1254-44c3-9548-ae0fb7e1b79f

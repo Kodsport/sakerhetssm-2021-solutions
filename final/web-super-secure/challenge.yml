@@ -1,0 +1,25 @@
+title: $uper $ecure login
+description: I made a $uper $ecure login form for my website, don't even try because it's unhackable!
+
+authors:
+  - Mateusz Drwal
+
+categories:
+  - web
+
+flag_format_prefix: SSM{
+flags: 1_c4n7_b3_5urpr153d_by_php_4nym0r3
+
+service:
+  type: website
+  image: container
+  internal_port: 80
+
+custom:
+  build_script: build.sh
+  order: 42
+
+spec: 0.0.1
+
+challenge_id: c90eab9f-9ff6-4834-8c40-686e21f6c587
+score: 150

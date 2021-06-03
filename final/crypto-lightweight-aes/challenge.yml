@@ -1,0 +1,25 @@
+title: Lightweight AES
+description: NIST vill ha lightweight crypto, så vi ska ge dem lightweight crypto!
+
+authors:
+  - mkg
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: th3_light3r_th3_b3tt3r
+
+downloadable_files:
+  - container/server.py
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 100
+custom:
+  order: 32
+
+challenge_id: 3eceed72-f8dd-4b77-81dd-ed1c0351dfb1

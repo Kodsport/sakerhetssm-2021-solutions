@@ -1,0 +1,27 @@
+title: RSA Decryption Service
+description: "Jag har fångat upp ett krypterat meddelande, och även hittat en tjänst som ska kunna avkoda det.
+Tyvärr har jag inte fullversionen av tjänsten, så får bara ett litet fragment av det avkrypterade meddelandet.
+Skulle du kunna hjälpa mig på något sätt?"
+
+authors:
+  - Fredrik Ekholm
+categories:
+  - crypto
+
+flag_format_prefix: SSM{
+flags: n0_n33d_f0r_pr3m1um_m3mb3r5hip
+
+downloadable_files:
+  - flag.enc
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+score: 250
+custom:
+  order: 33
+
+challenge_id: 53351fe1-6281-40ae-b173-e98676ecac0c

@@ -1,0 +1,20 @@
+title: Skum hårdvara
+description: |
+  OBS: Det här är ett problem som kräver fysisk hårdvara, och är bara lösbart av finalister. Om du är finalist, lös problemet "Fair play" först.
+
+  Vi har hittat ännu en skum apparat! Vi har skickat den till dig, så att du kan undersöka. Den är låst, men vi har hört att du kan låsa upp den genom att mata in <code>01101010 00011101</code>. Vi har också skapat ett script som kan hjälpa dig när du väl låser upp apparaten, det hittar du <a href="https://github.com/Kodsport/sakerhetssm-2021-solutions/blob/master/kval/forensics-skumt-ljud/solve-mateuszdrwal.py">här</a>. Lycka till!
+
+authors:
+  - Mateusz Drwal
+categories:
+  - hardware
+
+flag_format_prefix: SSM{
+flags: 0n3j_1n73_5kum7_ljud_163n
+
+spec: 0.0.1
+
+challenge_id: d0666819-9d9a-455a-ad42-e045046d88d7
+score: 100
+custom:
+  order: 2

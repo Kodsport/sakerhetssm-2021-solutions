@@ -1,0 +1,82 @@
+version: "2.2"
+services:
+  b2r-watevr:
+    build: container
+    volumes:
+      - ./keys/watevr.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2200:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-0xbadc0de:
+    build: container
+    volumes:
+      - ./keys/0xbadc0de.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2201:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-teamjockiboi:
+    build: container
+    volumes:
+      - ./keys/teamjockiboi.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2202:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-interval:
+    build: container
+    volumes:
+      - ./keys/interval.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2203:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-aguard:
+    build: container
+    volumes:
+      - ./keys/aguard.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2204:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-dtttcm:
+    build: container
+    volumes:
+      - ./keys/dtttcm.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2205:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-dataintrang:
+    build: container
+    volumes:
+      - ./keys/dataintrang.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2206:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-freedom-dive:
+    build: container
+    volumes:
+      - ./keys/freedom-dive.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2207:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-alh3:
+    build: container
+    volumes:
+      - ./keys/alh3.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2208:22"
+    restart: on-failure
+    cpus: 0.1
+  b2r-0x2a_japanska:
+    build: container
+    volumes:
+      - ./keys/0x2a_japanska.pub:/home/guest/.ssh/authorized_keys:rw
+    ports:
+      - "2209:22"
+    restart: on-failure
+    cpus: 0.1

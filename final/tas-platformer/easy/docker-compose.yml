@@ -1,0 +1,6 @@
+services:
+  challenge:
+    build: ../
+    ports:
+    - 50000:8000
+version: '3'

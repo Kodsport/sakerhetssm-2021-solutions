@@ -1,0 +1,21 @@
+title: Exzilla
+description: Ner med Excel och Sheets!
+authors:
+  - mkg
+categories:
+  - pwn
+
+flag_format_prefix: SSM{
+flags: are_you_using_the_latest_MAKROs?youtu.be/xubbVvKbUfY
+
+service:
+  type: tcp
+  image: container
+  internal_port: 50000
+
+spec: 0.0.1
+
+challenge_id: 9d1dfba9-d83a-4b51-8428-8b333078bd4d
+score: 250
+custom:
+  order: 81

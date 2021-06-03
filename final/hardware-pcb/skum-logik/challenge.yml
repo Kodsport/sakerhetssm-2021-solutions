@@ -1,0 +1,20 @@
+title: Skum logik
+description: |
+  OBS: Det här är ett problem som kräver fysisk hårdvara, och är bara lösbart av finalister. Om du är finalist, lös problemet "Fair play" först. Du behöver också ha låst upp hårdvaran som du gör i problemet "Skum hårdvara".
+
+  Vi märkte att det finns lite skum logik på vänster sida av apparaten. Kan du undersöka och se om du kan sätta på lampan? Vi har också lyckats identifiera vad det är för chip, och markerat dem på apparaten: <a href="https://datasheet.lcsc.com/lcsc/1810071119_ON-Semiconductor-MC74HC86ADR2G_C152540.pdf">IC1 - IC4</a>, <a href="https://datasheet.lcsc.com/lcsc/1808271813_Nexperia-74HC04D-653_C5590.pdf">IC5 - IC6</a>, <a href="https://datasheet.lcsc.com/lcsc/1809050019_Nexperia-74HC21D-653_C5617.pdf">IC7 - IC9</a>
+
+authors:
+  - Mateusz Drwal
+categories:
+  - hardware
+
+flag_format_prefix: SSM{
+flags: d37_d4r_v4r_r1k7167_kul
+
+spec: 0.0.1
+
+challenge_id: 7f766d80-7a0b-4060-ac18-b7d297060a98
+score: 300
+custom:
+  order: 3

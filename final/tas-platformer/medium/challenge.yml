@@ -1,0 +1,22 @@
+title: Platformer (Medium)
+description: Come try this new game I found, I heard they were giving away flags (same link).
+
+authors:
+  - Fredrik Ekholm
+  - Leopold Hermansson
+  - Axel Nilsson
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: 1_533_7h47_y0u_4r3_h00k3d_0n_1h15_94m3
+
+downloadable_files:
+  - ../chall.zip
+
+spec: 0.0.1
+score: 50
+custom:
+  order: 12
+
+challenge_id: d7886787-b7bb-48c6-aef4-7ac4b57cf1ea

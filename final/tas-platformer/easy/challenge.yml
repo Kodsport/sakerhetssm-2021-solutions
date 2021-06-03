@@ -1,0 +1,27 @@
+title: Platformer (Easy)
+description: Come try this new game I found, I heard they were giving away flags.
+
+authors:
+  - Fredrik Ekholm
+  - Leopold Hermansson
+  - Axel Nilsson
+categories:
+  - misc
+
+flag_format_prefix: SSM{
+flags: 47l3457_y0u_d3f3473d_7h3_b055
+
+service:
+  type: tcp
+  image: ../
+  internal_port: 8000
+
+downloadable_files:
+  - ../chall.zip
+
+spec: 0.0.1
+score: 50
+custom:
+  order: 11
+
+challenge_id: 65748584-1a58-4b45-a2ed-26e6e323b51e
